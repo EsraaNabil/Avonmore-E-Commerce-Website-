@@ -1,0 +1,39 @@
+header{
+    background-image: url(../../imgs/index/section-bg-1.jpg);
+    background-position: top;
+    background-size: cover;
+    .homeContainer{
+        width: 88%;
+        margin: 0 auto;
+    }
+    nav{
+        .navbar-collapse{
+            flex-basis: initial;
+                img{
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+                }
+        }
+    }
+    .fleex{
+        display: flex;
+        align-items:center;
+        height:calc(100vh - 64px);
+        h1{
+            font-size: 80px;
+            font-family: Realway;
+            color: $gray-graph;
+        }
+        h6{
+        font-size: 20px;
+        font-family: myFirstFont;
+        color: $gray-graph;
+        margin-bottom: 0px;
+          }
+        
+    }
+    
+}
+
+

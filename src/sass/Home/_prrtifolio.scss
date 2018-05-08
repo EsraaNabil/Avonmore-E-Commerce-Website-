@@ -1,0 +1,63 @@
+.Portfolio{
+    .pics{
+        width: 100%;
+        margin: 0px;
+        .col-sm-3{
+            padding: 0px;
+        }
+        img{
+            width: 100%;
+        }      
+    }
+    .icons{
+      background: $yellow;
+      padding: 2%;
+      .bord{
+         .row{
+         width: 55%;
+         margin: 0 auto;
+         
+          .img1{
+              background: url("../../imgs/index/Forma 1.png");
+              background-position: center;
+              background-size: contain;
+              background-repeat: no-repeat;
+           }
+            .img2{
+              background: url("../../imgs/index/icon.png");
+              background-position: center;
+              background-size: contain;
+              background-repeat: no-repeat;
+           }
+            .img3{
+              background: url("../../imgs/index/Forma.png");
+              background-position: center;
+              background-size: contain;
+              background-repeat: no-repeat;
+           }
+             .img4{
+              background: url("../../imgs/index/right.png");
+              background-position: center;
+              background-size: contain;
+              background-repeat: no-repeat;
+           }
+           
+           
+          .parag{
+            font-size: 11px;
+            font-family: Realway;
+            color: $gray-graph;
+            margin-bottom: 0px;
+          }
+          .par{
+            font-size: 22px;
+            font-family: Realway;
+            color: $gray-graph;
+            margin-bottom: 0px;
+          }
+        }
+    }
+}
+}
+
+

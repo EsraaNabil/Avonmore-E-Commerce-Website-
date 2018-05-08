@@ -1,0 +1,100 @@
+footer{
+    background-color:$gray-graph;
+    padding: 4% 0px;
+    .real18{
+        color: $white;
+    }
+    .lato14{
+        color: $white;
+    }
+    .lato12{
+        color: $white;
+    }
+    .hr{
+        margin-left: 0px;
+        border-color: $yellow;
+    }
+    .firstcol{
+       margin-bottom: 10px;
+       span{
+        font-size: 12px;
+       }
+    }
+    .News{
+        margin-bottom: 7px;
+       .date{
+          font-size: 9px;
+          font-family: myFirstFont;
+          color: $white;
+          margin-bottom: 5px;
+          padding-top: 3%;
+       }
+        img{
+            width: 100%;
+        }
+        .col-lg-9{
+            padding-left: 0px;
+        }
+        .ut{
+        font-size: 12px;
+        font-family: Realway;
+        color: $white;
+        margin-bottom: 0px;
+        } 
+    }
+    
+    }
+    .two{
+       margin-bottom: 5px;
+       .col-lg-3{
+        padding-right: 0px;
+        padding-left: 3%;
+       }
+        .col-md-5,.col-sm-5{
+            margin-bottom: 5px;
+        }
+    }
+    .gallery{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+}
+    .foot{
+        background-color: $dark;
+        padding: 1%;
+        .lato14{
+            color: $gray-foot;
+        }
+    }
+    
+    
+    
+@media all and (max-width:576px){
+    footer{
+        .News,.two{
+            img{
+                width: 20%;
+            }
+            p{
+                padding-left: 4%;
+            }
+        }
+        .News{
+            .col-sm-12{
+                padding-left: 0px;
+            }
+        }
+    }
+}
+
+@media all and (min-width:576px) and (max-width:992px){
+    footer{
+        .News{
+            .col-md-12{
+               padding-left: 13px;
+               padding-top: 0px;
+            }
+        }
+    }
+}

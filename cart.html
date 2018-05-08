@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML5 lab1">
+<meta property="og:url" content="url to this page goes here" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="this website title" />
+<meta property="og:descrition" content="this website description" />
+<meta property="og:image" content="pic.jpg" />
+<link rel="stylesheet" href="dist/css/Base.css">
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+<title> shop Grid </title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light pt-3 container-fluid blognav">
+      <a class="navbar-brand" href="Home.html"><img src="imgs/index/logo-dark.png"/></a>
+      <div class="collapse navbar-collapse d-flex justify-content-end navNext" id="navbarNav">
+            <div class="btn-group dropleft">
+                <img src="menu.png" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
+                <div class="dropdown-menu">
+                    <a href="Home.html" class="dropdown-item">Home</a>
+                    <a href="Blog.html" class="dropdown-item">Blog</a>
+                    <a href="blog Single.html" class="dropdown-item">Blog Single</a>
+                    <a href="aboutUs.html" class="dropdown-item">About Us</a>
+                    <a href="Portfolio.html"class="dropdown-item">Portfolio</a>
+                    <a href="Port-Single.html" class="dropdown-item">Portfolio Single</a>
+                    <a href="InTouch.html" class="dropdown-item">Get InTouch</a>
+                    <a href="shopGrid.html" class="dropdown-item">Shop Grid</a>
+                    <a href="shopItem.html" class="dropdown-item">Shop Item</a>
+                    <a href="shopList.html" class="dropdown-item">Shop List</a>
+                </div>
+            </div>
+            <i class="far fa-user ml-3"></i>
+            <i class="far fa-heart ml-3"></i>
+            <img src="imgs/shopList/cart.png" class="ml-3 cartImg"/>
+        <div class="btn-group dropleft">
+          <button type="button" class="btn btn-warning ml-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            2
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="cartdrop">
+              <div class="row">
+                  <div class="col-sm-3 col-4 nulaaI"><img src="imgs/shopGrid/widget-img-1.jpg" /></div>
+                  <div class="col-sm-9  col-8">
+                      <p class="card-title real18 nulla mb-1">Geometric Wooden Vase<i class="fas fa-trash-alt delete"></i></p>
+                      <p class="date real18 nullaD">$ 630.00</p>
+                  </div>
+              </div>
+              <hr>
+              <div class="row">
+                  <div class="col-sm-3 col-4 nulaaI"><img src="imgs/shopGrid/lamda.jpg" /></div>
+                  <div class="col-sm-9 col-8">
+                      <p class="card-title real18 nulla mb-1">Chrome Table Lamp<i class="fas fa-trash-alt"></i></p>
+                      <p class="date real18 nullaD">$ 50.00</p>
+                  </div>
+              </div>
+              <hr>
+              <div class="row">
+                 <div class="col-sm-6 lato14 total">Save Cart</div>
+                 <div class="col-sm-6 text-right real18 total">Total &nbsp &nbsp &nbsp $ 680.00</div>
+              </div>
+              <hr class="mb-2">
+              <div class="row">
+                <div class="col-sm-6 col-6 text-right pr-0">
+                  <p class="lead button text-center  mr-1 ml-1">
+                    <a class="btn  bg-white pr-4 pl-4 pt-1 pb-1" href="#" role="button">View Cart</a>
+                  </p>
+                </div>
+                <div class="col-sm-6 col-6 text-left pl-0">
+                  <p class="lead button text-center  ml-2">
+                    <a class="btn  bg-warning pr-4 pl-4 pt-1 pb-1" href="#" role="button">checkout</a>
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</nav>
+<header class="margin blogheader shopGrid">
+<div class="contain fleex">
+<div class="row">
+<div class=" col-sm-6">
+  <h6>Shop Grid</h6>
+  <h1>Our Products</h1>
+</div>    
+</div>
+</div>
+</header>
+
+<section class="CartSec contain">
+   <div class="row name pt-2 pb-2">
+      <div class="col-lg-5 col-6 real18">PRODUCT</div>
+      <div class="col-lg-1 col-3 real18">QTY</div>
+      <div class="col-lg-2 real18 none">ID NUMBER</div>
+      <div class="col-lg-2 real18 none">PRICE</div>
+      <div class="col-lg-2 col-3 real18">SUBTOTAL</div>
+   </div>
+
+   <div class="row mt-4 line2 mb-3">
+        <div class="col-6 col-lg-5">
+            <div class="row">
+                <div class="col-lg-3 nulaaI none  pr-0"><img src="imgs/cart/widget-img-1.jpg" /></div>
+                <div class="col-12 col-lg-9 mt-3">
+                    <p class="card-title real18 nulla mb-1">Geometric Wooden Vase</p>
+                     <p class="date lato14 nullaD">Suspendisse maximus eget neque eget accumsan. Sed eu erat at erat lobortis volutpat.</p>
+                </div>
+             </div>
+        </div>
+        <div class="col-3 col-lg-1 mid1"><input type="text" placeholder="1" class="drop lato14 pl-3 pt-2 pb-2"></div>
+        <div class="col-sm-2 mid lato14 none">GWV-1345568721</div>
+        <div class=" col-3 col-lg-2 mid real18 none">$ 50.00</div>
+        <span class="col-2 col-lg-1 mid real18 sub">$ 50.00 </span><i class="fas fa-trash-alt lato14 mid sub col-1 col-lg-1"></i>
+    </div>
+    <hr>
+    <div class="row mt-4 line2 mb-3 ">
+        <div class="col-6 col-lg-5">
+            <div class="row">
+                <div class="col-lg-3 nulaaI none pr-0"><img src="imgs/cart/img-1.jpg" /></div>
+                <div class="col-12 col-lg-9 mt-3">
+                    <p class="card-title real18 nulla mb-1">Chrome Table Lamp</p>
+                    <p class="date lato14 nullaD">Nulla non est scelerisque, ullamcorper eros at, imperdiet neque. Quisque a sapien at odio.</p>
+                </div>
+             </div>
+        </div>
+        <div class="col-3 col-lg-1 mid1"><input type="text" placeholder="1" class="drop lato14  pr-3 pl-3 pt-2 pb-2"></div>
+        <div class="col-sm-2 mid lato14 none">Chrome Table Lamp</div>
+        <div class="col-3 col-lg-2 mid real18 none">$ 630.00</div>
+        <span class="col-2 col-lg-1 mid real18 sub">$ 50.00 </span><i class="fas fa-trash-alt lato14 mid sub col-1 col-lg-1"></i>
+    </div>
+    <hr class="mb-5">
+    <div class="row mb-5 Cupon">
+        <div class="col-sm-5 pl-0 pr-0">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary" type="button">CUPON CODE</button>
+                </div>
+                <input type="text" class="form-control" placeholder=""  aria-label="" aria-describedby="basic-addon1">
+              </div>
+        </div>
+        <div class="col-sm-7 pr-0">
+            <p class="lead button text-right mb-0">
+                <a class="btn bg-white pr-4 pl-4 pt-2 pb-2 update" href="#" role="button">UPDATE CART</a>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 pr-5">
+            <div class="portSingle margin">
+                <p class="real18 mb-0 pt-3 relatedPosts">Calculator Shipping</p>
+                <hr class="hr mt-1 mb-4">
+                <p class="real18 label mb-2">Country*</p>
+                <div class="lato14 drop pr-3 pl-3 pt-2 pb-2 mr-5">Unated States  (USA) <i class="fas fa-angle-down"></i></div>
+                <p class="real18 label mt-3 mb-2">State / Province*</p>
+                <input type="text" class="pb-2">
+                <p class="real18 label mt-3 mb-2">Postcode / Zip</p>
+                <input type="text" class="pb-2">
+            </div>
+        </div>
+        <div class="col-sm-6 portSingle">
+            <p class="real18 mb-0 pt-3 relatedPosts">Cart Total</p>
+            <hr class="hr mt-1 mb-4">
+            <p class="real18 label mb-2 Total pb-3">Subtotal: <span class="real18">$ 680.00</span></p>
+            <p class="real18 label mb-2 Total pb-3 mt-3">Shipping and Handling: <span class="lato14">Local Pickup</span></p>
+            <p class="real18 label mb-2 Total pb-4 subTotal mb-4">Order Total: <span class="real18 yellow">$ 680.00</span></p>
+            <a href="#"><span class="real18 button pl-4 pr-4 cheeck"> PROCCED CHACKOUT</span></a>
+        </div>
+    </div>
+    
+ 
+</section>
+
+<footer>
+        <div class="contain pt-3">
+          <div class="row">
+            <div class="col-sm-4">
+                <h4 class="real18">About Us</h4>
+                <hr class="hr">
+                <p class="lato14">Morbi eu purus eget tellus fringilla malesuada eget nec nisi. Etiam nec dolor porttitor, cursus elit quis, tristique erat.   Sed rhoncus molestie elit sit amet viverra. </p>
+                <div class="firstcol"><img src="imgs/index/mapicon.png" /> <span class="lato12 ml-2">90-120 Swanston St,Melbourne VIC 3000, Australia</span></div>
+                <div class="firstcol"><img src="imgs/index/phoneIcon.png" /> <span class="lato12 ml-2">+61 3 9559 9559 or +61 3 9669 9669 </span></div>
+                <div class="firstcol"><img src="imgs/index/mailIcon.png" /> <span class="lato12 ml-2">support@gtcreators.com</span></div>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="real18">Recent News</h4>
+                <hr class="hr">
+                <div class="row News">
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-9.jpg" /></div>
+                    <div class="col-lg-9 col-md-12 col-sm-12">
+                        <p class="date">14/07/2016</p>
+                        <p class="ut">Ut molestie quam erat, non finibus erat</p>
+                    </div>
+                </div>
+                <div class="row News">
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-10.jpg" /></div>
+                    <div class="col-lg-9 col-md-12 col-sm-12">
+                        <p class="date">14/07/2016</p>
+                        <p class="ut"> Mauris vel est porta, viverra orci non</p>
+                    </div>
+                </div>
+                <div class="row News">
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-11.jpg" /></div>
+                    <div class="col-lg-9 col-md-12 col-sm-12">
+                        <p class="date">14/07/2016</p>
+                        <p class="ut">Duis nibh nisl, egestas non sapien volutpat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 gallery">
+                <h4 class="real18">Our Gallery</h4>
+                <hr class="hr">
+                <div class="row two">
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-1 (1).jpg"  /></div>
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-2 (1).jpg"  /></div>
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-3 (1).jpg"  /></div>
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-4 (1).jpg"  /></div>
+                </div>
+                <div class="row two">
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-5.jpg"  /></div>
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-6.jpg"  /></div>
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-7.jpg"  /></div>
+                    <div class="col-lg-3 col-md-5 col-sm-5"><img src="imgs/index/img-8.jpg"  /></div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <div class="foot lato14 text-center">&copy 2016 GTC. All rights reserved.</div>
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    </body>
+    </html>

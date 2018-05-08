@@ -1,0 +1,26 @@
+.blog{
+    .card{
+        border: none;
+        a{
+            text-decoration: none;
+        }
+       .date{
+          font-size: 10px;
+       }  
+       .read>p{
+          font-size: 10px;
+       }
+        .read:hover+hr{
+            width: 60px;
+        }
+      hr{
+         margin-left: 0px;
+         border-color: $yellow;
+        }
+        .card-body{
+            padding: 0px;
+            padding-top: 10px;
+        }
+    }
+}
+

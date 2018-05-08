@@ -1,0 +1,175 @@
+.CartSec{
+    
+    .name{
+        background-color: $light;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .line2{
+        img{
+            width: 100%;
+        }
+        .drop{
+            border: solid 0.5px $gray-100;
+            margin-bottom: 5px;
+            width: 40px;
+        }
+        .mid1{
+            display: flex;
+            align-items: center;
+        }
+        i.mid{
+            justify-content: center;
+        }
+        .mid{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            i{
+                float: right;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    hr{
+        width: 100%;
+    }
+    .Cupon{
+        width: 100%;
+        margin: 0 auto;
+        .input-group{
+            .form-control{
+                border-radius: 0px;
+            }
+            .input-group-prepend{
+                .btn-outline-secondary{
+                    border: none;
+                    font-size: 12px;
+                    font-family: realway;
+                    color: $gray-graph;
+                }
+                background-color: $yellow;
+                cursor: pointer;
+            }
+        }
+        a.update{
+            font-size: 12px;
+        }
+    }
+    .row{
+        .portSingle{
+            .relatedPosts{
+                font-size: 23px;
+            }
+            hr{
+                width: 30px;
+            }
+            .drop{
+                width: 86%;
+                border: solid 0.5px $gray-100;
+                i{
+                    float: right;
+                    padding-top: 5px;
+                }
+            }
+            .drop:hover{
+                background-color: $white;
+            }
+            .label{
+                font-size: 14px;
+            }
+            input{
+                border: solid 0.5px $gray-100;
+                width: 86%
+            }
+            .Total{
+                border-bottom:solid 0.5px $gray-100;
+                .yellow{
+                    color: $yellow;
+                }
+                span{
+                    border: none;
+                    float: right;
+                    margin: 0px;
+                    padding: 0px;
+                } 
+                span:hover{
+                    background-color: $white;
+                }
+            }
+            .subTotal{
+                border: none;
+            }
+            a{
+                text-decoration: none;
+                span{
+                    background-color: $yellow;
+                }
+            }
+        }
+    }
+}
+
+
+@media all and (max-width:992px){
+    .CartSec{
+        .none{
+            display: none;
+        }
+        .line2{
+            .mid{
+                display: none;
+            }
+            .sub{
+                display: flex;
+            }
+        }
+    }
+}
+
+@media all and (max-width:780px){
+    .CartSec{
+        .portSingle{
+            .cheeck{
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+@media all and (max-width:576px){
+    .CartSec{
+        .name{
+            .real18{
+                font-size: 8px;
+            }
+        }
+        .nulla{
+            font-size: 11px;
+        }
+        .nullaD{
+            font-size: 9px;
+        }
+        .line2{
+            i.mid{
+                justify-content: flex-start;
+                padding-left: 0px;
+            }
+        }
+        .sub{
+            padding-left: 0px;
+        }
+        .portSingle{
+            margin-top: -40px;
+            margin-bottom: 64px;
+            .real18,.lato14{
+                font-size: 14px;
+            }
+            .cheeck{
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

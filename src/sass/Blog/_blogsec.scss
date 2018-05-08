@@ -1,0 +1,136 @@
+.blogSection{
+    margin-bottom: 130px;
+     .ul{
+        padding-left: 0px;
+        clear: both;
+        li{
+           list-style: none;
+           border-bottom: solid 1px $gray-100;
+           font-size:11px;
+           span{
+            color:$on-color;
+           }
+           p{
+            float: right;
+            font-size:11px;
+           }
+        }
+      }
+    .card{
+        border: none;
+        h5{
+            font-size: 15px;
+        }
+        i{
+            position: absolute;
+            top: 48%;
+            left: 35%;
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+       .date{
+          font-size: 10px;
+       }  
+       .read>p{
+          font-size: 10px;
+       }
+        .read:hover+hr{
+            width: 60px;
+        }
+      hr{
+         margin-left: 0px;
+         border-color: $yellow;
+        }
+        .card-body{
+            padding: 0px;
+            padding-top: 10px;
+        }
+    }
+    
+    .rightSide{
+        .blogSearch{
+            .input-group-text{
+                border-radius: 0px; 
+                border-left: transparent;
+                background-color: $white;
+                i{
+                    font-size: 10px;
+                }
+            }
+            .form-control{
+                border-radius: 0px;
+                border-right: none;
+                font-size: 12px;
+            }
+        }
+      input{
+        font-size: 12px;
+      }
+      hr{
+        margin-left: 0px;
+        border-color: $yellow;
+      }
+      .row{
+        img{
+            width: 100%;
+        }
+      }
+      .latestNews{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        button{
+           border-width: 1px;
+           border-color: rgb(48, 50, 51);
+           border-style: solid;
+           opacity: 0.102;
+        }
+      }
+      .nulla{
+            font-size: 12px;
+      }
+      .nullaD{
+            font-size: 10px;
+      }
+      .nulaaI{
+        padding-right: 0px;
+      }
+      .two{
+        padding-left: 8px;
+        .col-sm-3{
+            padding-right:0px;
+            padding-left: 8px;
+        }
+      }
+      .tag{
+        border: 1px solid $gray-100;
+        padding: 3px 15px;
+        margin-right: 4px;
+        background-color: transparent;
+      }
+      .tag:hover{
+        text-decoration: none;
+        color: $gray-500;
+      }
+
+    }
+}
+
+
+@media all and (max-width:576px){
+    .blogSection{
+        .rightSide{
+            .row{
+                img{
+                   width: 30%;
+                }
+
+               .two{
+                    img{
+                       width: 30%;
+                    }
+                }   
+           }  
+        }
+    }
+}

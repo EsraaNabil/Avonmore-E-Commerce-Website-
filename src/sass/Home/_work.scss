@@ -1,0 +1,32 @@
+.work{
+    background: url(../../imgs/index/section-bg-19.jpg);
+    background-size: cover;
+    padding: 7% 0px;
+    hr{
+        margin-left: 0px;
+    }
+    .ready{
+        margin-left: 39px;
+        border: none;
+        background-color: transparent;
+        padding: 0px;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    .togg{
+        background-color: transparent;
+        padding: 0px;
+        border: none;
+    }
+    .togg:hover{
+        background-color: transparent;
+        padding: 0px;
+        border: none; 
+    }
+ 
+    .retine{
+        color: $gray-graph;
+        margin-left: -6px;
+    }
+}

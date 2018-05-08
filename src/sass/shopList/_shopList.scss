@@ -1,0 +1,89 @@
+
+.blognav{
+    div{
+        img.cartImg{
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+.shopGridSec {
+    .rightSide{
+        .blogSearch{
+           .searchList{
+               right: -25%;
+           }
+        }
+    }
+}
+.shopListCard{
+    .col-sm-4{
+        img{
+            width: 100%;
+        }
+        .onPic{
+            background-color: #fcca03;
+            font-size: 14px;
+            padding: 4px 17px;
+            width: 73px;
+            position: absolute;
+            top: 25px;
+        }
+    } 
+    .col-sm-8{
+        padding-left: 10px;
+        .stars{
+            i{
+                font-size: 10px;
+            }
+        }
+        .head{
+            font-size: 18px;
+        }
+        .price{
+            font-size: 15px;
+            color: $yellow;
+        }
+        button{
+            background-color: $light;
+            padding: 10px;
+            padding-top: 5px;
+            padding-bottom: 9px;
+            border: none;
+            cursor: pointer;
+        }
+        .button{
+            font-size: 12px;
+            background-color: $yellow;
+            cursor: pointer;
+            padding: 11px 30px;
+        }
+    }
+}
+
+@media all and (max-width:780px){
+    .shopListCard{
+        .col-sm-8{
+            .button{
+             font-size: 8px;
+             background-color: #fcca03;
+             cursor: pointer;
+             padding: 11px 24px;
+             margin-right: 50%;
+             margin-bottom: 7px;
+            }
+        } 
+    }
+}
+
+@media all and (max-width:576px){
+    .shopListCard{
+        .col-sm-8{
+            .button{
+                font-size: 10px;
+                padding: 11px 25px;
+                margin: 0px;
+            }
+        } 
+    } 
+}

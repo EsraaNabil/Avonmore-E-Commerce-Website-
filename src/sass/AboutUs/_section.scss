@@ -1,0 +1,162 @@
+.doInAbout{
+    .backImg{
+        position: absolute;
+        top:0px;;
+        width: 35%;
+    }
+}
+
+.ourTeam{
+    .card{
+        border: none;
+        .flex{
+            div{
+                width: 80%;
+                margin: 0 auto;
+                p{
+                    font-size: 12px;
+                    font-family: Lato;
+                    color: #7a7a7a;
+                }
+                img{
+                    width: initial;
+                }
+            }
+        }
+    }
+    .carousel-control-prev,.carousel-control-next{
+        margin: 8px -133px;
+        position: absolute;
+        top: -97px;
+    }
+}
+
+.aboutTest{
+    position: relative;
+    .backImg{
+        position: absolute;
+        top: 42%;
+        left: 45%;
+    }
+}
+
+.rate{
+    .yellow{
+        height: 5px;
+        div{
+            background-color: $yellow;
+            width:95%;
+        }
+        .graph{
+            width:90%; 
+        }
+        .photo{
+            width:85%;
+        }
+    }
+
+    .percen{
+        float: right;
+    }
+    span{
+        font-size: 12px;
+        font-family: Realway;
+        color: $gray-graph;
+    }
+}
+
+
+
+@media all and (max-width:992px){
+    .aboutTest{
+        .backImg{
+            left: 41%;
+        }
+    }
+
+    .ourTeam{
+        .card{
+            .flex{
+                div{
+                    p{
+                        font-size: 10px;
+                    }
+                    img{
+                        width: initial;
+                    }
+                }
+            }
+        }
+        .carousel-control-prev,.carousel-control-next{
+            margin: 8px -100px;
+            position: absolute;
+            top: -97px;
+        } 
+    }
+}
+@media all and (max-width:720px){
+    .aboutTest{
+        .backImg{
+            left: 37%;
+        }
+    }
+
+    .ourTeam{
+        .card{
+            .flex{
+                div{
+                    p{
+                        font-size: 8px;
+                    }
+                    hr{
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+        .carousel-control-prev,.carousel-control-next{
+            margin: 8px -60px;
+            position: absolute;
+            top: -137px;
+            span{
+                padding: 8px 12px;
+            }
+        } 
+    }
+}
+
+@media all and (max-width:576px){
+    .doInAbout{
+        .backImg{
+            width: 20%;
+        }
+    }
+    .ourTeam{
+        .carousel-inner {
+            width: 200px;
+                margin: 0 auto;
+            .card{
+                .flex{
+                    div{
+                        p{
+                            font-size: 12px;
+                        }
+                        hr{
+                            margin-top: 15px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .carousel-control-prev,.carousel-control-next{
+            margin: 8px -25px;
+        } 
+    }
+    .card-deck{
+        .none{
+            display: none;
+        }
+    }
+}

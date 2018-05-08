@@ -1,0 +1,34 @@
+.portSec{
+
+    .select{
+        padding: 0px;
+      li{
+        list-style: none;
+        display: inline-block;
+        hr{
+            width: 20px;
+        }
+        a{
+        text-decoration: none;
+        color: $gray-graph;
+        }  
+      }
+      a:hover{
+        color: $yellow;
+      }
+      a:hover+hr{
+        border-color: $yellow;
+      }
+    }
+    .card{
+        border: none;
+        .flex{
+            img{
+                width: 25px;
+            }
+        }
+        .card-body{
+            padding-left:0px; 
+        }
+    }
+}

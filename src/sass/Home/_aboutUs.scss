@@ -1,0 +1,24 @@
+.aboutUs{
+    background-image: url(../../imgs/index/section-bg-4.jpg);
+    background-position: top;
+    background-size: cover;
+
+    hr{
+        margin-left: 0;
+    }
+    .mobCol{
+        display: flex;
+        align-items: flex-end;
+        img{
+            width: 100%;
+        }
+    }
+    
+    .about{
+        padding-bottom: 9%;
+        padding-top: 10%;
+        .add{
+            width: 86%;
+        }
+    }
+}

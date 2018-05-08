@@ -1,0 +1,29 @@
+.blognav{
+    .navbar-collapse{
+        flex-basis: initial;
+            img{
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+}
+.blogheader{
+    background-image: url(../../imgs/blog/section-bg-11.jpg);
+    background-size: cover;
+    .fleex{
+        height:40vh;
+        .row{
+            width: 100%;
+            h6{
+               color: $gray-500;
+               font-size: 14px;
+            }
+            h1{
+               font-size: 45px;
+            }
+        }
+    }
+
+    
+}

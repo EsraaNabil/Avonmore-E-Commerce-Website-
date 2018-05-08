@@ -1,0 +1,281 @@
+.shopGridSec{
+    nav{
+        background: #f2f2f2;
+        .lato14{
+            font-size: 10px;
+        }
+        .sortImg{
+          width: 11px;
+          height: 11px;
+          margin-left: 13px;
+        }
+        .navbar-collapse{
+            flex-basis: initial;
+            .sortSpan{
+                font-size: 10px;
+                margin-right: 15px;
+             }
+        }
+    }
+    .products{
+        .card{
+            border: none;
+            .card-body{
+                padding: 0px;
+                padding-top: 8px;
+                .date{
+                   color:$gray-graph;
+                   font-size: 14px;
+                }
+                .nulla{
+                   color:$gray-200;
+                   font-size: 12px;
+                   i{
+                      float: right;
+                      margin-top: 3px;
+                      font-size: 15px;
+                      position: initial;
+                   }
+                   .delete{
+                      color:$gray-graph; 
+                    }
+                }
+            }    
+            .onPic{
+                background-color: #fcca03;
+                font-size: 12px;
+                padding: 4px 17px;
+                width: 73px;
+                position: absolute;
+                top: 25px;
+            }                
+        }
+    }
+    .rightSide{
+        .blogSearch{
+            .input-group-text{
+                border-radius: 0px; 
+                border-left: transparent;
+                background-color: $white;
+                i{
+                    font-size: 10px;
+                    right: 0%;
+                }
+            }
+            .form-control{
+                border-radius: 0px;
+                border-right: none;
+                font-size: 12px;
+            }
+        }
+        .filterout{
+            height: 3px;
+            background-color: $light;
+            position: relative;
+            .filterin{
+                background-color: $gray-graph;
+                width: 67%;
+                margin: 0 auto;
+                height: 3px;
+                .left{
+                    position: absolute;
+                    top: -5px;
+                }
+                .right{
+                    position: absolute;
+                    top: -5px;
+                    right: 16%; 
+                }
+                .spanL{
+                    font-size: 15px;
+                    position: absolute;
+                    top: 12px;
+                    left: 16px;
+                }
+                .spanR{
+                    position: absolute;
+                    font-size: 15px;
+                    right: 21px;
+                    top: 12px;
+                }
+            }
+        }
+        .filterB{
+            .btn{
+                border-radius: 0px;
+                padding: 8px 43px;
+                font-size: 11px;
+            }
+        }
+        .colorFilter{
+            div{
+                padding-right: 0px;
+                font-size: 11px;
+                i{
+                    color:  $gray-graph;
+                    font-size: 5px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width:1200px){
+    .shopGridSec{
+        .products{
+            .card{
+                .flex{
+                    a{
+                        font-size: 11px;
+                        padding: 4% 12%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media all and (max-width:992px){
+    .shopGridSec{
+        .products{
+            .card{
+                .flex{
+                    a{
+                        font-size: 10px;
+                        padding: 4% 12%;
+                    }
+                }
+            }
+            }
+        .rightSide{
+            .blogSearch{
+                input,i{
+                    font-size: 10px;
+                    right: -4%;
+                }
+            }
+            .filterB{
+                .btn{
+                    border-radius: 0px;
+                    padding: 4px 28px;
+                    font-size: 10px;
+                }
+            }
+            .filterout{
+                .filterin{
+                    .spanL,.spanR{
+                        font-size: 11px;
+                    }
+                    .spanR{
+                        right: 9px;  
+                    }
+                }
+            }
+            .colorFilter{
+                div{
+                    font-size: 10px;
+                    i{
+                        font-size: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width:772px){
+    .shopGridSec{
+        .products{
+            .card{
+                .flex{
+                    a{
+                        font-size: 8px;
+                        padding: 2px 5px;
+                    }
+                }
+                .onPic{
+                    font-size: 8px;
+                    padding: 4px 9px;
+                    width: 41px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media all and (max-width:576px){
+    .shopGridSec{
+        .products{
+            .card{
+                .card-title{
+                    width: 80%;
+                }
+                img{
+                    width: 80%;
+                }
+                .flex{
+                  width: 80%;
+                a{
+                    font-size: 14px;
+                    padding: 4% 12%;
+                }
+            }
+            .onPic{
+                font-size: 12px;
+                padding: 4px 17px;
+                width: 73px;
+                position: absolute;
+                top: 25px;
+            }  
+        }
+        nav{
+            .lato14{
+                font-size: 7px;
+            }
+            .navbar-collapse{
+                .sortImg{
+                    display: none;
+                }
+            }
+        }
+        .rightSide{
+            .blogSearch{
+                input,i{
+                    font-size: 10px;
+                    right: -1%;
+                }
+            }
+            .filterout{
+                .filterin{
+                    .spanL,.spanR{
+                        font-size: 15px;
+                    }
+                    .spanR{
+                        right: 13%;  
+                    }
+                    .spanL{
+                        left: 12%;
+                    }
+                }
+            }
+            .colorFilter{
+                div{
+                    padding-right: 0px;
+                    font-size: 11px;
+                    i{
+                        color:  $gray-graph;
+                        font-size: 5px;
+                        margin-right: 8px;
+                    }
+                }
+            }
+        } 
+    }
+}
+
+}

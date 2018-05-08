@@ -1,0 +1,26 @@
+.mobile{
+
+    .row{
+        img{
+            width: 100%;
+        }
+        .middle{
+            padding-bottom: 5%;
+            padding-top: 8%;
+        }
+        ul{
+           padding-left: 0px;
+           list-style: none;
+        li{
+            i{
+              color: $yellow;
+              font-size: 5px;
+              margin-right: 8px;
+            }  
+        }
+    }
+ hr{
+    margin-left: 0;
+ }
+}
+}

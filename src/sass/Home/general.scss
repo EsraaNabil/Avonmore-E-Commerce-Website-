@@ -1,0 +1,125 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../final_project_fonts/fonts/KaushanScript-Regular.woff);
+}
+@font-face {
+    font-family: Realway;
+    src: url(../../final_project_fonts/fonts/Raleway-Bold.woff);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../../final_project_fonts/fonts/Lato-Regular.woff);
+}
+.margin{
+        margin-bottom: 110px;
+}
+.lato14{
+        font-size: 12px;
+        font-family: Lato;
+        color: $gray-500;
+}
+.lato12{
+        font-size: 10px;
+        font-family: Lato;
+        color: $gray-500;
+        width: 33%;
+        margin: 0 auto;
+}
+.real18{
+        font-size: 16px;
+        font-family: Realway;
+        color: $gray-graph;
+        
+}
+.hr{
+        border-top:solid 2px $gray-500;
+        width: 30px;
+}
+.graph{
+        font-size: 12px;
+        font-family: myFirstFont;
+        color: $gray-graph;
+}
+.font2{
+        font-size: 26px;
+        font-family: Realway;
+        color: $gray-graph;
+}
+.contain{
+        width: 75%;
+        margin: 0 auto;
+}
+.button{
+        a{
+        font-size: 14px;
+        color: $gray-graph;
+        text-decoration: none;
+        box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+        font-family:Realway; 
+        }
+        a:hover {
+        color: $dark;
+        }
+}
+.map{
+    height: 500px;
+}
+.navNext{
+
+    span{
+        border: 1px solid $gray-100;
+        color: $gray-graph;
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+    .noB{
+            border-left: transparent;
+    }
+    .noBr{
+            border-right: transparent;
+    }
+    span:hover{
+        background-color: $yellow;
+        color: $gray-graph;
+    }
+}
+@media all and (max-width:576px){
+        .navNext{  
+                margin-bottom: 15px;
+                span{
+                        border: 1px solid $gray-100;
+                        color: $gray-graph;
+                        padding: 7px 10px;
+                        font-size: 10px;
+                    }
+        }  
+}
+
+.pic3{
+        .Hov{
+            position: relative;
+            .flex{
+                position: absolute;  
+                display: flex;
+                align-items:center;
+                justify-content:center;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(237,237,237,0.8);
+                opacity: 0;
+                img{
+                    width: 30px;
+                }
+                p{
+                   font-size: 14px;
+                   font-family: Realway;
+                   color: $gray-graph;
+                }
+            }
+        }
+        .flex:hover{
+            opacity:1;
+        }
+    }
+
+  

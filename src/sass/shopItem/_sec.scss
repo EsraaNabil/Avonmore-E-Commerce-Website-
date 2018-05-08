@@ -1,0 +1,152 @@
+.ItemSec{
+    .matrial{
+        font-size: 12px;
+    }
+    .shopItem{
+        .shopItemImg{
+            width: 100%;
+        }
+        .head{
+            font-size: 30px;
+        }
+        .stars{
+            float: right;
+            margin-top: 18px;
+        }
+        .drop{
+            border: solid 0.5px $gray-100;
+            margin-bottom: 5px;
+            padding: 10px 16px;
+            background-color: transparent;
+        }
+        .drop:hover{
+            background-color: $yellow;
+        }
+        .mar{
+            margin-top: 25px;
+        }
+        .newPrice{
+            font-size: 32px;
+            color: $yellow;
+        }
+        .oldPrice{
+            font-size: 16px;
+            color: $gray-500;
+            text-decoration: line-through;
+        }
+        button{
+            background-color: $light;
+            padding: 10px;
+            padding-top: 5px;
+            padding-bottom: 9px;
+            border: none;
+            cursor: pointer;
+        }
+        .button{
+            font-size: 11px;
+            background-color: $yellow;
+            cursor: pointer;
+            padding: 11px 30px;
+        }
+        .cont{
+            padding-right: 15px;
+            div{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .nav-item{
+        a{
+            text-decoration: none;
+            font-family: Realway;
+            color: $gray-graph;
+            border: solid 0.5px $gray-100;
+            font-size: 12px;
+            margin-right: 8px;
+            border-radius: 0px;
+        }
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+        background-color: $yellow;
+        color: $gray-graph; 
+    }
+    .description{
+        background-color: $light;
+        padding: 3%;
+        padding-bottom: 1%;
+    }
+    .list{
+        list-style: none;
+    }
+    .products{
+        .card{
+            img:hover{
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media all and (max-width:992px){
+    .ItemSec{
+        .shopItem{
+            .qty{
+                margin-top: 27px;
+            }
+            .head{
+                font-size: 20px;
+                .stars{
+                    margin-top: 12px;
+                    font-size: 9px;
+                    position: absolute;
+                    top: 21px;
+                    left: 16px;
+                }
+            }
+            .price{
+                padding-top: 12px;
+            }
+        }
+    }
+}
+
+@media all and (max-width:780px){
+    .ItemSec{
+    .shopItem{
+            .button{
+             font-size: 8px;
+             background-color: #fcca03;
+             cursor: pointer;
+             padding: 11px 23px;
+             margin-right: 50%;
+             margin-bottom: 7px;
+            }
+    }
+    }
+}
+
+@media all and (max-width:576px){
+ 
+    .ItemSec{
+        .shopItem{
+            .button{
+                font-size: 10px;
+                padding: 11px 21px;
+                margin: 0px;
+            }
+        } 
+        .pictures{
+            .col-sm-6{
+                .down{
+                    position: initial;
+                }
+            }
+        }
+    }
+}
+
+
+
